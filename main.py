@@ -24,4 +24,4 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-bot.run('token')
+bot.run('token_do_bot')
