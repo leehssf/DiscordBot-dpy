@@ -1,1 +1,1 @@
-Arquivos sobre o bot Ren
+### Uma base bem simples para bot do discord
