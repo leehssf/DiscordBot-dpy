@@ -1,1 +1,1 @@
-### Uma base bem simples para bot do discord
+### Uma base bem simples para bot de discord
