@@ -2,11 +2,11 @@ import discord
 from discord.ext import commands
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix='?', intents=intents)
+bot = commands.Bot(command_prefix='prefixo_do_bot', intents=intents)
 
 @bot.event
 async def on_ready():
-    print(f'Bot {bot.user} está online!')
+    print(f'A aplicação {bot.user} está online!')
     await bot.change_presence(status=discord.Status.dnd, activity=discord.CustomActivity(name="Opa!"))
 
 @bot.command(aliases=['latency', 'ms', 'p'])
